@@ -1,0 +1,17 @@
+/* 1. Global reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  color: #555;
+}
+
+/* 2. font size: percentage of users of browsers font settings */
+html {
+  font-size: 62.5%;
+}

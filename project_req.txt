@@ -1,0 +1,54 @@
+
+**Functional Requirements:**
+
+1. **User Registration and Login:**
+  1. table for users(username, email, password, picture)
+   - Users should be able to log in using their credentials.
+
+/**************************************home***********************************************************
+
+2. **User Profile:** ---------------------User Profile 
+   - Users should have a profile page where they can view and edit their username and password.
+   - users can add a picture
+   - users can log out
+
+3. **Create a Task:**
+   - Users should be able to create new tasks.
+   - Each task should have a:
+   title, description, due date, categorie, priority, status
+
+   
+4. **View Tasks:**
+   - Users should be able to view a list of their tasks.
+   - Tasks should be sortable by due date, priority, or completion status or categorie
+   this will be a different page where users can check their tasks
+
+/*****************************************************************************************************************
+
+5. **Edit and Delete Tasks:**
+   - Users should be able to edit the title, description, due date, and completion status of a task
+   ( categorize tasks into different categories or tags (e.g., work, personal, shopping).)
+   - Users should be able to delete a task.
+
+
+**Technical Requirements:**
+
+1. **Flask Backend:**
+   - Implement a Flask API to handle user authentication and task management (CRUD operations).
+   - Ensure data is stored persistently, for example, in a database like SQLite.
+
+2. **React Frontend:**
+   - Create a user-friendly and responsive user interface for the to-do list.
+   - Implement user registration and login forms using React components.
+   - Develop pages for displaying tasks, user profiles, and task creation/editing.
+   - Use React state and hooks to manage the app's state.
+
+3. **User Authentication:**
+   - Implement user registration and login functionality using Flask's built-in authentication
+    or third-party libraries like Flask-Login.
+   - Ensure that only authenticated users can create, edit, and delete tasks.
+
+    ***DATABASE***
+1. table for users(username, email, password, picture)
+2.table for tasks(title, description, due date, categorie, priority, status)
+3.one to many relationship
