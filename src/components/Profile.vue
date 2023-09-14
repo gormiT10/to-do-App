@@ -2,7 +2,7 @@
   <div>
     <div class="image-container">
       <div class="image-radius">
-        <img class="profile-pic" src="public/profile_pic1.jpg" />
+        <head></head> <img class="profile-pic" src="public/profile_pic1.jpg" />
       </div>
     </div>
   </div>
